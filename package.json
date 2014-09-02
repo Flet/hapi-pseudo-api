@@ -1,0 +1,40 @@
+{
+  "name": "hapi-pseudo-api",
+  "version": "1.0.0",
+  "description": "A hapi.js plugin to expose a directory or hash of JSON as REST resources. This is a developement/testing tool that can be used for building clientside apps before the actual back end is completed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flet/hapi-pseudo-api"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "pseudo",
+    "apu",
+    "dummy",
+    "fake",
+    "rest",
+    "resource",
+    "json",
+    "file",
+    "directory"
+  ],
+  "author": "Dan Flettre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flet/hapi-pseudo-api/issues"
+  },
+  "homepage": "https://github.com/Flet/hapi-pseudo-api",
+  "devDependencies": {
+    "hapi": "^6.5.1",
+    "lab": "^4.0.2"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "lowdb": "^0.3.1"
+  }
+}
